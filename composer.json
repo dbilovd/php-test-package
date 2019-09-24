@@ -1,0 +1,25 @@
+{
+    "name": "dbilovd/php-test-package",
+    "description": "PHP Test Package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Lartey",
+            "email": "dbilovd@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dbilovd\\PHPTestPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dbilovd\\PHPTestPackage\\Tests\\": "test/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
