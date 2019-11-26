@@ -15,7 +15,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Dbilovd\\PHPTestPackage\\Tests\\": "test/"
+            "Dbilovd\\PHPTestPackage\\Tests\\": "tests/"
         }
     },
     "require": {},
