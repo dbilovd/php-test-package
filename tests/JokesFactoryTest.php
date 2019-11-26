@@ -2,9 +2,9 @@
 
 namespace Dbilovd\PHPTestPackage\Tests;
 
-use PHPUnit\Framework\TestCase;
 use Dbilovd\PHPTestPackage\JokeFactory;
 use Dbilovd\PHPTestPackage\Jokes\JokeContract;
+use PHPUnit\Framework\TestCase;
 
 class JokesFactoryTest extends TestCase
 {
